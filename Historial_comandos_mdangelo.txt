@@ -1,0 +1,186 @@
+pwd
+ls -lat
+cd repogit/
+ls -lat
+git clone git@github.com:Monkey79/TP_AySO.git
+ls -lat
+cd TP_AySO/
+ls -lat
+cat README.md 
+clear
+ls -lat
+git status
+git branch
+git branch -r
+man man
+clear
+cat /etc/os-release 
+echo HOME_URL
+echo "HOME_URL"
+grep HOME_URL /etc/os-release 
+man grep
+grep -i home_url /etc/os-release 
+cat /proc/cpuinfo 
+cat /proc/cpuinfo | tail -n1
+grep "model name" /proc/cpuinfo | tail -n1
+ls -h
+ls -lth
+echo "Usuario=$(whoami)" > datos_usuarios.txt
+ls -lht
+cat datos_usuarios.txt 
+git branch
+git add .
+git config --global user.email "marianomartin79@gmail.com"
+git config --global user.name "Monkey79"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+cat /proc/cpuinfo 
+cat /proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name" | >> datos_usuarios.txt 
+cat datos_usuarios.txt 
+cat /proc/cpuinfo | grep "model name" >> datos_usuarios.txt 
+cat datos_usuarios.txt 
+git status
+git add .
+git commmit -m "feat: añadiendo informacion de cpu"
+git commit -m "feat: añadiendo informacion de cpu"
+git status
+pwd
+ls -lt
+cd repogit/
+ls -lt
+cd TP_AySO/
+ls -lt
+cd ..
+clear
+ls -lt
+sudo cat /etc/sudoers
+clear
+ls -lt
+pwd
+ls -lat
+cd .ssh/
+ls -lat
+cat id_ed25519.pub 
+cd ..
+clear
+ls -lat
+pwd
+cd repogit/
+ls -lat
+cd TP_AySO/
+ls -lat
+git branch
+git branch -r
+clear
+ls -lt
+cat README.md 
+clear
+ls -lt
+cat /etc/os-release 
+man grep
+man man
+clear
+ls -lt
+man grep
+grep -i home_url /etc/os-release 
+whoami
+clear
+ls -lat
+cat datos_usuarios.txt 
+git status
+cat /proc/cpuinfo 
+clear
+cat /proc/cpuinfo | grep tail -n5 -i "model name"
+cat /proc/cpuinfo | grep tail -n5
+cat /proc/cpuinfo 
+cat /proc/cpuinfo | grep head -n5
+cat /proc/cpuinfo | head -n5
+cat /proc/cpuinfo | grep "model name" head -n5
+cat /proc/cpuinfo | grep head -n5 "model name"
+cat /proc/cpuinfo | grep head -n 5 "model name"
+cat /proc/cpuinfo | grep head -nclear5 "model name"
+clear
+ls -lat
+cat /proc/cpuinfo 
+man grep
+cat /proc/cpuinfo | tail -n5
+cat /proc/cpuinfo | tail -n6
+cat /proc/cpuinfo | tail -n5
+clear
+ls -lt
+cat datos_usuarios.txt 
+clear
+cat /proc/cpuinfo | grep "model info"
+cat /proc/cpuinfo | grep "model name"
+git status
+git log
+clear
+cat /etc/passwd
+man grep
+cat /etc/passwd | gep vagrant
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep nologin
+cat /etc/passwd | grep -v nologin
+clear
+cat /etc/passwd | grep -v nologin
+cat /etc/passwd | grep -v nologin -c
+cat /etc/passwd | grep -v nologin
+man sort
+cat /etc/passwd | grep -v nologin | sort -k 7
+cat /etc/passwd | grep -v nologin | head -n10
+clear
+cat /etc/passwd | grep -v nologin | head -n10 | sort -k 7
+cat /etc/passwd | grep -v nologin | head -n10 | sort -k 7 > lista_ordenada.txt
+ls -lat
+cat lista_ordenada.txt 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git log
+clear
+man tcpdump
+clear
+sudo tcpdump 
+sudo tcpdump clear
+clear
+ls -lat
+echo "sudo tcpdump" > comando_dump_net.txt
+ls -lat
+cat comando_dump_net.txt 
+git add .
+git commit -m "ADD:Comando para capturar y analizar el trafico de red"
+clear
+git log
+git status
+clear
+ls -lat
+cat <<EOF
+Esto es una demostración
+del uso de HereDoc.
+EOF
+
+cat <<EOF
+ESTO es otra demotracion
+del uso del HERE DOC
+EOF
+
+cat<<EOF >README.md
+Alumno: Mariano DAngelo
+Division: 313-2
+Turno: noche
+EOF
+
+ls -lat
+cat README.md 
+git status
+git add .
+git commit -m "add: datos personales agregados a archivo REAME.md"
+clear
+git log
+clear
+ls -lat
+echo $HOME
+CLEAR
+clear
+ls -lat
+history -a
