@@ -1,2 +1,3 @@
-# TP_AySO
-Tp S.O 2024
+Alumno: Mariano DAngelo
+Division: 313-2
+Turno: noche
